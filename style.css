@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root{
+    --main-bg-color: #2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    padding: 0px 18px;
+    font-size: 18px;
+}
+nav{
+    display: flex;
+}
+header{
+    background-color: #2874f0;
+    height: 12vh;
+    font-family: "Lato", sans-serif;
+
+}
+nav ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 12vh;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 0 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    /* font-size: 18px; */
+    transition: transform 0.1s ease-in-out;
+    
+}
+nav ul li a:hover{
+    font-weight: bold;
+    transform: scale(1.05);
+    
+}
+nav ul li a, button {
+    font-family: 'Roboto', sans-serif; /* Or 'Poppins', 'Nunito' */
+    font-weight: bold;
+    font-size: 16px;
+    color: white; /* Ensure contrast against the background */
+}
+.search input{
+    width: 550px;
+    height: 30px;
+    padding: 0px 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+
+    
+}
+.lens{
+    object-fit: cover;
+    position: absolute;
+    right: 10px;
+    padding: 2px;
+}
+#Login{
+    padding: 3px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+#Login:hover{
+    background-color: white;
+    font-weight: lighter;
+    
+}
+#More{
+    padding: 3px;
+    border-radius: 15px;
+    background-color: white;;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+#More:hover{
+    background-color: white;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+s
+main{
+    background-color: #f0f0f0;
+}
+.container{
+    /* background-color: #2c3e50; */
+    width: 100%;
+    margin:0;
+    color: white;
+    min-height: calc(100vh - 12vh - 12vh);
+
+}
+.add{
+    display: inline;
+    width: 350px;
+    height: 200px;
+    margin: 7px;
+}
+.add img{
+    object-fit: cover;  /* Ensures images retain their aspect ratio while filling the container */
+    border-radius: 10px;  /* Optional: Adds rounded corners to the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Optional: Adds a soft shadow for depth */
+    transition: transform 0.3s ease-in-out;
+    padding: 1px;
+    margin: 0;
+
+
+}
+.add img:hover {
+    transform: scale(1.05);  /* Slight zoom on hover */
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+    margin:10px 0;
+    /* object-fit: cover; */
+}
+.slider img{
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);    
+}
+.slider img:hover {
+    transform: scale(1.05);  /* Slight zoom on hover */
+}
+.card{
+    background-color: antiquewhite;
+    max-width: 95vw;
+    
+    /* display: flex; */
+    margin: 10px auto;
+    padding: 3px 19px;
+}
+.card h2{
+    color:  black;
+    font-family: 'Montserrat', sans-serif; 
+    margin: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.card-items{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 0px 30px;
+    width: 10vw;
+    border: 1px solid transparent;  /* Border for visual feedback */
+    border-radius: 8px;  /* Rounded corners */
+    transition: all 0.3s ease-in-out;  /* Smooth transition for hover effects */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.card-items:hover {
+    transform: scale(1.05);  /* Slightly expand the card */
+    border-color: #999;  /* Highlight border on hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); 
+}
+.card img{
+    border-radius: 8px;
+}
+.card-lines{
+    color: black;
+    text-align: center;
+
+}
+.card-items-container{
+    display: flex;
+    overflow: scroll;
+
+
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+.flex-all-center{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+}
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    /* margin: 20px 0; */
+
+}
