@@ -1,21 +1,18 @@
 # Flipkart_Clone
 Flipkart Clone
 Project Description
-This is a Flipkart Clone built using HTML, CSS, and JavaScript. The project mimics the basic design and layout of the popular e-commerce website Flipkart, with responsive features, interactive UI elements, and a user-friendly design. The aim of this project is to demonstrate front-end development skills by creating a functional and visually appealing web page.
+This project is a simple Flipkart User Interface (UI) Clone built using HTML and CSS. The goal of this project is to replicate the front-end design of Flipkart's homepage and practice web development skills using basic web technologies.
 
 Features
-Responsive Design: The website layout adjusts seamlessly across different screen sizes and devices, offering a smooth user experience on both desktops and mobile devices.
-Interactive Components:
-Image hover effects for product cards.
-Hover effects on buttons like "Login" and "More" for improved UX.
-Search bar with a mock-up search icon.
-Card Layout for Deals: Display of product deals using a card layout, featuring product images, descriptions, and prices.
-Image Slider: A featured product banner with an image slider that includes hover effects and shadowing for depth.
+Responsive design for desktop and mobile
+Navbar with a logo, links, search bar, and dropdown login menu
+A clean and organized structure
+Search bar with an embedded lens icon
+Dropdown for login, profile, and other options
 Technologies Used
-HTML5: For structuring the web page and its elements.
-CSS3: For styling the layout, adding animations, and ensuring responsive design. Utilized Flexbox for alignment and layout management.
-JavaScript: Basic functionality to add interactivity (if applicable).
-Google Fonts: Used the "Lato" and "Ubuntu" fonts to enhance typography and readability.
+HTML5: For the structure of the web pages.
+CSS3: For styling and layout.
+No frameworks or libraries were used—just vanilla HTML and CSS!
 
 Future Improvements
 Add JavaScript functionality for a more dynamic user experience, such as a working search feature, user authentication, and cart functionality.
